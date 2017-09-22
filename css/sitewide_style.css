@@ -1,10 +1,11 @@
 h1 {
 	color: #22375e;
+	align: center;
 }
 
-/** {
-	border: 1px solid red !important;
-}*/
+h2 {
+	text-align: center;
+}
 
 * {
 	-webkit-box-sizing: border-box;
@@ -20,6 +21,10 @@ h1 {
 /*	padding: 5px;*/
 	justify-content: center;
 	height: 100px;
+}
+
+.body {
+	justify-content: center;
 }
 
 footer {
@@ -47,8 +52,8 @@ footer {
 }
 
 .content {
-/*	width: 75%;*/
-	text-align: justify;
+	display: block !important;
+	width: 80%;
 }
 
 .navigation {
@@ -78,6 +83,7 @@ footer {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .col-1 {
